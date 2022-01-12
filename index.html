@@ -4,27 +4,44 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Gavelisten</title>
+    <title>Gavelisten | Planlæg dine julegaver og ønsker nemt med Gavelisten</title>
+    <meta name="description" content="Det har aldrig være nemmere at holde styr på gaveideer, budget og ønsker. På alle dine
+    devices.">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="assets/gavelisten-favicon.png" type="image/x-icon">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src='tailwind.config.js'></script>
     <link rel="stylesheet" href="https://use.typekit.net/wjl2crr.css">
 </head>
 
-<body>
-
+<body class="w-screen overflow-x-hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        style="margin:auto;background:rgba(255, 255, 255, 0);display:block;z-index:1;position:relative" width="100vw"
+        height="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1639 181">
+        <g transform="translate(819.5,90.5) scale(-1,1) translate(-819.5,-90.5)">
+            <linearGradient id="lg-0.3294389336114243" x1="0" x2="1" y1="0" y2="0">
+                <stop stop-color="#42cb5d" offset="0"></stop>
+                <stop stop-color="#2c7f3c" offset="1"></stop>
+            </linearGradient>
+            <path d="" fill="url(#lg-0.3294389336114243)" opacity="1">
+                <animate attributeName="d" dur="4.166666666666666s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1"
+                    calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s"
+                    values="M0 0L 0 133.09229189519073Q 136.58333333333334 188.5040810890472  273.1666666666667 164.24381413508775T 546.3333333333334 134.85137044607066T 819.5 129.14430331563375T 1092.6666666666667 158.2343904352806T 1365.8333333333333 125.61164260062176T 1639 153.6182394169361L 1639 0 Z;M0 0L 0 132.79098606091318Q 136.58333333333334 184.95022924310297  273.1666666666667 140.62798838096023T 546.3333333333334 127.55977964231936T 819.5 152.59582778172728T 1092.6666666666667 123.18107993704947T 1365.8333333333333 134.0985042487717T 1639 157.95296912384376L 1639 0 Z;M0 0L 0 150.85169388948955Q 136.58333333333334 165.25014167914793  273.1666666666667 135.0516029909648T 546.3333333333334 142.76577254462555T 819.5 121.13918378153151T 1092.6666666666667 128.7779510759138T 1365.8333333333333 161.45501762035758T 1639 131.2813415276708L 1639 0 Z;M0 0L 0 133.09229189519073Q 136.58333333333334 188.5040810890472  273.1666666666667 164.24381413508775T 546.3333333333334 134.85137044607066T 819.5 129.14430331563375T 1092.6666666666667 158.2343904352806T 1365.8333333333333 125.61164260062176T 1639 153.6182394169361L 1639 0 Z">
+                </animate>
+            </path>
+        </g>
+    </svg>
     <!-- Section 1 -->
     <nav class="relative w-full px-8 text-gray-700 bg-white body-font">
-        <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-6xl">
+        <div class="container flex flex-col flex-wrap items-center justify-between py-0 mx-auto md:flex-row max-w-6xl">
             <a href="index.html"
                 class="font-graphie relative z-10 flex items-center w-auto text-2xl font-bold leading-none text-black select-none"><img
                     class="h-20" src="assets/logo.png" alt="logo-nav">Gavelisten</a>
     </nav>
 
     <!-- Section 1 -->
-    <section class="px-2 py-8 bg-white md:px-0">
+    <section class="px-2 py-4 bg-white md:px-0">
         <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
             <div class="flex flex-wrap items-center sm:-mx-3">
                 <div class="w-full md:w-1/2 md:px-3">
@@ -37,11 +54,13 @@
                         </h1>
                         <p
                             class="mx-auto font-graphie text-base text-center sm:text-left text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
-                            It's never been easier to keep track of gift ideas, budget and wishes. On all your devices.</p>
+                            Det har aldrig være nemmere at holde styr på gaveideer, budget og ønsker. På alle dine
+                            devices.
+                        </p>
                         <div class="relative flex sm:space-x-4 items-center">
                             <a href="https://gave-listen.dk/"
-                                class="shadow-xl font-graphie text-center flex items-center px-20 py-3 mb-3 text-lg text-white bg-maingreen sm:mb-0 mx-auto sm:mx-0 hover:bg-green-500 sm:w-auto rounded-full">
-                                Try It Free
+                                class="shadow-xl font-graphie font-semibold text-center flex items-center px-20 py-3 mb-3 text-lg text-white bg-maingreen sm:mb-0 mx-auto sm:mx-0 hover:bg-green-500 sm:w-auto rounded-full">
+                                Prøv gratis
                             </a>
                         </div>
                     </div>
@@ -56,13 +75,13 @@
     </section>
 
     <!-- component -->
-    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 mb-12 py-8">
+    <section class="max-w-6xl px-4 sm:px-6 lg:px-4 mb-12 py-8 mr-4 md:mx-auto">
         <article>
             <h2 class="text-3xl font-graphie font-extrabold text-gray-900">Blog</h2>
             <section class="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8">
                 <article
                     class="shadow-xl relative w-full h-64 bg-cover bg-center group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
-                    style="background-image: url('assets/christmas.jpg')">
+                    style="background-image: url('assets/thumbnail_for_him.jpg')">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
                     </div>
@@ -70,14 +89,14 @@
                         <h3 class="text-center">
                             <a class="text-white text-2xl font-bold text-center" href="#">
                                 <span class="absolute inset-0"></span>
-                                Top 10 Christmas gift tips for the whole family
+                                Gaveideer til ham: Sådan finder du julegaver til ham
                             </a>
                         </h3>
                     </div>
                 </article>
                 <article
                     class="relative w-full h-64 bg-cover bg-center group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
-                    style="background-image: url('assets/gift-pack.jpg');">
+                    style="background-image: url('assets/thumbnail_for_her.jpg');">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
                     </div>
@@ -85,14 +104,14 @@
                         <h3 class="text-center">
                             <a class="text-white text-2xl font-bold text-center" href="#">
                                 <span class="absolute inset-0"></span>
-                                Top 5 tips on how to beatifuly pack presents
+                                Gaveideer til hende: Find den rigtige julegaver til hende.
                             </a>
                         </h3>
                     </div>
                 </article>
                 <article
                     class="relative w-full h-64 bg-cover bg-center group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
-                    style="background-image: url('assets/choco.jpg');">
+                    style="background-image: url('assets/thumbnail_family.jpg');">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
                     </div>
@@ -100,7 +119,7 @@
                         <h3 class="text-center">
                             <a class="text-white text-2xl font-bold text-center" href="#">
                                 <span class="absolute inset-0"></span>
-                                Top 7 last-minutes gifts
+                                Undgå julestess: Planlæg gaver og undgå stress
                             </a>
                         </h3>
                     </div>
@@ -108,26 +127,31 @@
             </section>
         </article>
     </section>
- 
-      <section class="py-5 2xl:py-5 ">
-        <div class="container px-4 mx-auto">
-          <div class="max-w-6xl mx-auto">
-            <div class="relative pt-16 px-6 lg:px-16 pb-20 bg-ppgray rounded-2xl overflow-hidden mx-4 shadow-xl">
-            
-                <span class="font-graphie text-base lg:text-lg text-white">Get free tips and ideas for gifts in your inbox</span>
-                <h3 class="font-graphie mt-6 mb-12 text-5xl lg:text-5xl text-white font-bold">Subscribe to newsletter</h3>
-                <div class="sm:max-w-md mb-8 sm:flex sm:items-center sm:bg-white sm:rounded-full">
-                  <span class="hidden sm:inline-block pl-2 sm:pl-6 lg:pl-10">
-                  
-                  </span>
-                  <input class="shadow-xlw-full sm:w-auto mb-4 sm:mb-0 pl-8 sm:pl-4 py-5 rounded-full placeholder-gray-900 font-bold focus:outline-none" type="email" placeholder="Drop your Email">
-                  <button class="w-full sm:w-auto ml-auto px-10 py-5 text-white font-bold bg-maingreen hover:bg-green-500 rounded-full transition duration-200">Subscribe</button>
+
+    <section class="py-5 2xl:py-5 mr-4 md:mx-auto">
+        <div class="container flex px-4 mx-auto">
+            <div class="max-w-6xl w-full mx-auto">
+                <div class="relative pt-12 px-6 lg:px-16 pb-12 bg-ppgray rounded-2xl overflow-hidden lg:mx-4 shadow-xl">
+
+                    <span class="font-graphie text-base lg:text-lg text-white">Get free tips and ideas for gifts in your
+                        inbox</span>
+                    <h3 class="font-graphie mt-6 mb-12 text-5xl lg:text-5xl text-white font-bold">Subscribe to
+                        newsletter</h3>
+                    <div class="sm:max-w-md mb-8 sm:flex sm:items-center sm:bg-white sm:rounded-full">
+                        <span class="hidden sm:inline-block pl-2 sm:pl-6 lg:pl-10">
+
+                        </span>
+                        <input
+                            class="font-graphie w-full shadow-xlw-full sm:w-auto mb-4 sm:mb-0 pl-8 sm:pl-4 py-5 rounded-full placeholder-gray-900 font-semibold focus:outline-none"
+                            type="email" placeholder="Drop your Email">
+                        <button
+                            class="font-graphie w-full sm:w-auto ml-auto px-10 py-5 text-white font-semibold bg-maingreen hover:bg-green-500 rounded-full transition duration-200">Subscribe</button>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
+        </div>
+    </section>
     <footer>
         <div class="container mx-auto px-6 max-w-6xl">
             <div class="mt-12 border-t-2 border-gray-300 flex flex-col items-center">
@@ -139,6 +163,34 @@
             </div>
         </div>
     </footer>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        style="margin:auto;background:rgba(255, 255, 255, 0);display:block;z-index:1;position:relative" width="vw"
+        height="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1639 181">
+        <g transform="translate(819.5,90.5) scale(1,-1) translate(-819.5,-90.5)">
+            <linearGradient id="lg-0.11605345104420883" x1="0" x2="1" y1="0" y2="0">
+                <stop stop-color="#42cb5d" offset="0"></stop>
+                <stop stop-color="#2c7f3c" offset="1"></stop>
+            </linearGradient>
+            <path d="" fill="url(#lg-0.11605345104420883)" opacity="1">
+                <animate attributeName="d" dur="4.166666666666666s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1"
+                    calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s"
+                    values="M0 0L 0 138.17438444336236Q 136.58333333333334 156.65182784022352  273.1666666666667 128.16799353956515T 546.3333333333334 161.98370301544608T 819.5 147.22962324385364T 1092.6666666666667 139.84712054823336T 1365.8333333333333 127.21448886484639T 1639 144.92205988494686L 1639 0 Z;M0 0L 0 140.97377339870272Q 136.58333333333334 152.58845047691804  273.1666666666667 125.84197963373151T 546.3333333333334 135.61249483046274T 819.5 137.59161357299166T 1092.6666666666667 151.44437227766758T 1365.8333333333333 128.94411759614658T 1639 132.82601023935442L 1639 0 Z;M0 0L 0 128.74328165430666Q 136.58333333333334 184.05366177639087  273.1666666666667 139.9669548000921T 546.3333333333334 145.81576239174132T 819.5 156.79251258217593T 1092.6666666666667 122.73875621571509T 1365.8333333333333 158.08643130490535T 1639 126.82340714046951L 1639 0 Z;M0 0L 0 138.17438444336236Q 136.58333333333334 156.65182784022352  273.1666666666667 128.16799353956515T 546.3333333333334 161.98370301544608T 819.5 147.22962324385364T 1092.6666666666667 139.84712054823336T 1365.8333333333333 127.21448886484639T 1639 144.92205988494686L 1639 0 Z">
+                </animate>
+            </path>
+        </g>
+    </svg>
+
+    <!--
+    <div class="mx-0">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:rgba(255, 255, 255, 0);display:block;z-index:1;position:relative" width="100vw" height="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1639 181">
+            <g transform="translate(819.5,90.5) scale(1,-1) translate(-819.5,-90.5)"><linearGradient id="lg-0.7352305938611738" x1="0" x2="1" y1="0" y2="0">
+              <stop stop-color="#42cb5d" offset="0"></stop>
+              <stop stop-color="#2c7f3c" offset="1"></stop>
+            </linearGradient><path d="" fill="url(#lg-0.7352305938611738)" opacity="1">
+              <animate attributeName="d" dur="4.166666666666666s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s" values="M0 0L 0 164.0857115125596Q 136.58333333333334 140.0241585518036  273.1666666666667 120.03561002199355T 546.3333333333334 153.86848279852245T 819.5 156.3446146154071T 1092.6666666666667 153.58929390421568T 1365.8333333333333 152.54385814439695T 1639 162.9750845463107L 1639 0 Z;M0 0L 0 117.01550201059125Q 136.58333333333334 171.2206790987659  273.1666666666667 123.59907918248541T 546.3333333333334 119.05703627259707T 819.5 155.63664932983687T 1092.6666666666667 158.39643602759605T 1365.8333333333333 123.28598499179398T 1639 118.32178463429585L 1639 0 Z;M0 0L 0 158.77570325047668Q 136.58333333333334 170.14475424428696  273.1666666666667 155.84042096206778T 546.3333333333334 142.82181374029716T 819.5 150.61114463919915T 1092.6666666666667 158.2506537755346T 1365.8333333333333 125.47720946440646T 1639 118.1680853404573L 1639 0 Z;M0 0L 0 164.0857115125596Q 136.58333333333334 140.0241585518036  273.1666666666667 120.03561002199355T 546.3333333333334 153.86848279852245T 819.5 156.3446146154071T 1092.6666666666667 153.58929390421568T 1365.8333333333333 152.54385814439695T 1639 162.9750845463107L 1639 0 Z"></animate>
+            </path></g>
+            </svg>
+    -->
 </body>
 
 </html>
